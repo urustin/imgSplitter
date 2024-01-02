@@ -1,0 +1,8 @@
+directories:
+  output: dist
+  buildResources: build
+appId: your.id
+win:
+  target: portable
+files: []
+electronVersion: 24.3.0

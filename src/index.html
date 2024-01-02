@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Instagram Image Splitter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  </head>
+  <body>
+    <!-- <h1>Instagram Image Splitter</h1> -->
+    <!-- <div class="bg-image"></div> -->
+    <div class="buttonBox">
+      <div class="buttonBox2">
+        <button id="select-image-button">Select Image</button>
+        <button id="split-image-button">Split Image</button>
+        <button id="ratio-1-3">1:3</button>
+        <button id="ratio-2-3">2:3</button>
+        <button id="ratio-3-3">3:3</button>
+      </div>
+    </div>
+
+
+    <div id="imageBox">
+      <div id="imageBox2">
+        <img id="image" src="" />
+        <div id="introMessage">Please Put The Image</div>
+        <div id="imageEditor" class="none">
+          <div id="resizeHandle1" class="none"></div>
+          <div id="resizeHandle2" class="none"></div>
+          <div id="resizeHandle3" class="none"></div>
+          <div id="resizeHandle4" class="none"></div>
+        </div>
+      </div>
+    </div>
+  
+    
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

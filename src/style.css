@@ -1,0 +1,152 @@
+/* reset */
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,800&display=swap');
+/* style.css */
+
+
+
+.buttonBox{
+  z-index: 2;
+  height: 50px;
+  background-color: antiquewhite;
+  width:440px;
+  margin:0 auto;
+}
+
+
+.buttonBox2{
+  width :330px;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  
+}
+
+
+/* CSS */
+.buttonBox2 button{
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.buttonBox2 button:hover{
+  background-color: #f7fafa;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.buttonBox2 button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+#introMessage{
+  position: absolute;
+  width: 40%;
+  left:30%;
+  top:200px;
+  font-family: 'Jost', sans-serif;
+  /* margin:0 auto; */
+  /* margin-top: 200px; */
+}
+
+#imageBox{
+  z-index: 2;
+  position: relative;
+  /* background-color: aqua; */
+  /* display: ; */
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+#imageBox2{
+  position: relative;
+  width:400px;
+  margin: 0 auto;
+  /* background-color: #aaa; */
+  /* z-index: -1; */
+}
+
+#image{
+  position:absolute;
+  /* width:400px; */
+  /* height: 400px; */
+  /* left:100px; */
+    max-width: 400px;
+    max-height: 500px;
+    background-color: aliceblue;
+  }
+  
+#imageEditor{
+
+  position: relative;
+  top:0px;
+  left:0px;
+  width: 400px;
+  height: 133.333px;
+  background-color:#aaa;
+  /* transition: 1s; */
+  opacity: 0.5;
+  cursor: grab;
+}
+
+.none{
+  display: none;
+  opacity: 0;
+}
+
+
+/* Resize Handle */
+
+#resizeHandle1, #resizeHandle2, #resizeHandle3, #resizeHandle4 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(117, 255, 117);
+  position: absolute;
+  opacity: 0.9;
+}
+
+#resizeHandle1 {
+  top: 0;
+  left: 0;
+  cursor: nesw-resize;
+}
+
+#resizeHandle2 {
+  top: 0;
+  right: 0;
+  cursor: nwse-resize;
+}
+
+#resizeHandle3 {
+  bottom: 0;
+  left: 0;
+  cursor: nwse-resize;
+}
+
+#resizeHandle4 {
+  bottom: 0;
+  right: 0;
+  cursor: nesw-resize;
+}
